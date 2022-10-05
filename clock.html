@@ -1,0 +1,43 @@
+<html>
+
+<head>
+  <title>Digital Clock</title>
+  
+  <link rel="stylesheet" href="clock.css">
+</head>
+<body>
+<main id="container" class="main" >
+
+ <section id="time" >
+  <div class="box" id="color1" ></div>
+  <div class="box" id="color2"  ></div>
+  <div class="box" id="color3"  > </div>  
+ </section>
+ 
+ <section id="time-title" >
+ <small>Hour</small>
+ <small>Minute</small>
+ <small>Second</small>
+ </section>
+ 
+ <section id="date" >
+  <div class="show-date" id="today" ></div>
+  <div class="show-date"  id="month" ></div>
+  <div class="show-date" id="year" ></div>
+   <div class="show-date" id="formet" ></div>
+ </section>
+
+
+<div id="track" ></div>
+</main>
+
+
+<section class="btn-group" >
+<button class="show-btn"  onclick="display()">Show Time</button>
+<button class="hide-btn"  onclick="hideDisplay()">Hide Time</button>
+
+</section>
+
+</body>
+<script src="clock.js"></script>
+</html>
